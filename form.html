@@ -8,7 +8,7 @@
   <body>
     <div class="container">
       <h1>Pre-paid Parking Form</h1>
-      <form id="parking-form">
+      <form id="parking-form" onsubmit="onSubmit(event)">
         <div class="input-field" id="name-field">
           <label for="name">Name</label>
           <input id="name" type="text" required>
@@ -51,7 +51,7 @@
           <button id="submit-button" type="submit">Make reservation</button>
         </div>
       </form>
-      <div id="total"></div>
+      <div id="total">2</div>
       <script src="script.js"></script>
   </body>
 </html>
