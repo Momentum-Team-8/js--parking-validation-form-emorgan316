@@ -11,7 +11,7 @@ function onSubmit(event){
 
 
 let ccnumber = document.querySelector('input[id="credit-card"]')
-document.addEventListener (‘click’, event => {
+document.addEventListener ("click", event => {
     console.log(ccnumber)
 })
 
